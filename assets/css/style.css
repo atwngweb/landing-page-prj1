@@ -14,7 +14,8 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
+  height: 2000px;
 }
 
 /* Commom */
@@ -48,6 +49,7 @@ a {
 .header {
   background-color: #e6f0ff;
   height: 100vh;
+  position: relative;
 }
 
 /* navbar */
@@ -88,4 +90,73 @@ a {
 .actions .action-btn {
   padding: 13px 16px;
   margin-left: 18px;
+}
+
+/* Hero */
+
+.hero {
+  margin-top: 130px;
+}
+
+.hero .infor {
+  width: 51%; /* Do container width=1110px phai chia ti le vi nam trong container */
+}
+
+.hero .infor .sub-title {
+  color: #687690;
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 0.18px;
+}
+
+.hero .infor .title {
+  color: #000336;
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: 1.19; /* 118.75% */
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+
+.hero .infor .desc {
+  color: #5a6473;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.78; /* 177.778% */
+  margin-bottom: 40px;
+}
+
+.hero-btn {
+  min-width: 170px;
+}
+
+.hero-img {
+  position: absolute;
+  right: calc((100vw - 1110px) / 2 - 100px);
+  bottom: 0;
+}
+
+/* Cliens */
+
+.cliens {
+  margin-top: 122px;
+}
+
+.cliens .row {
+  display: flex;
+  justify-content: space-between; /*Co the vao starts margin-left: auto*/
+}
+
+.cliens .row-desc {
+  margin-top: 23px;
+}
+.row p {
+  color: #7d8589;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.25; /* 125% */
+}
+
+.cliens .adv-img {
+  margin-top: 70px;
 }
