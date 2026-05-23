@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #0f1b4c;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* rem ăn theo font-size của html */
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins";
+}
+
+/* Commom */
+.container {
+  width: 1110px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 98px;
+  padding: 18px 16px;
+  border-radius: 8px;
+  background: var(--primary-color);
+  color: #fff;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Header */
+.header {
+  background-color: #e6f0ff;
+  height: 100vh;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding-top: 38px;
+}
+
+.navbar img {
+  margin-right: 50px;
+}
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li a {
+  font-weight: 500;
+  font-style: 1.4rem;
+  color: #4f5361;
+  padding: 10px 14px;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+.navbar .actions {
+  margin-left: auto;
+}
+
+.navbar .actions .action-link {
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.actions .action-btn {
+  padding: 13px 16px;
+  margin-left: 18px;
+}
