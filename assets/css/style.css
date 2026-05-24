@@ -15,7 +15,6 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
-  height: 10000px;
 }
 
 /* =======Commom=========== */
@@ -527,13 +526,15 @@ a {
 }
 
 .subscribe .backgroup .title {
+  width: 500px;
   color: #fff;
   font-size: 3.5rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1; /* 100% */
 }
 
 .subscribe .backgroup .desc {
+  width: 407px;
   color: #fff;
   font-size: 1.6;
   font-weight: 400;
@@ -555,4 +556,59 @@ a {
 .subscribe .sticker {
   position: absolute;
   right: 221px;
+}
+
+/* Footer */
+
+.footer {
+  margin-top: 55px;
+  padding: 50px 0;
+}
+
+.footer .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .column .heading {
+  color: #1c1c1d;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.footer .column .list {
+  margin-top: 42px;
+  margin-bottom: 81px;
+}
+
+.footer .column .item {
+  margin-bottom: 18px;
+}
+
+.footer .column .item a {
+  color: #7a7a7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.footer .column .desc {
+  width: 257px;
+  margin: 40px 0;
+  color: #7a7a7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.8; /* 175% */
+}
+
+.footer .column .brand {
+  width: 117px;
+  height: 28.471px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .row .copyright {
+  color: #c2c2c2;
+  font-size: 1.4;
+  font-weight: 400;
 }
