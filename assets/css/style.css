@@ -51,8 +51,18 @@ a {
   overflow: hidden;
 }
 
-/* Header */
-.header {
+/* Header sticky */
+
+.header-sticky {
+  background-color: #e6f0ff;
+  padding-top: 26px;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+/* Hero wrap */
+.hero-wrap {
   background-color: #e6f0ff;
   height: 100vh;
   position: relative;
@@ -62,7 +72,7 @@ a {
 .navbar {
   display: flex;
   align-items: center;
-  padding-top: 38px;
+  padding: 12px 0;
 }
 
 .navbar img {
@@ -102,7 +112,7 @@ a {
 /* ======Hero======= */
 
 .hero {
-  margin-top: 130px;
+  padding-top: 130px;
 }
 
 .hero .infor {
@@ -153,6 +163,7 @@ a {
 .cliens .row {
   display: flex;
   justify-content: space-between; /*Co the vao starts margin-left: auto*/
+  align-items: center;
 }
 
 .cliens .row-desc {
